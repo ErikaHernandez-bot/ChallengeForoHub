@@ -69,7 +69,6 @@ Además, se utilizó una clase DTO (instancia Record en Java) para recibir los d
 Se usaron las anotaciones @PostMapping, @RequestBody y @Valid para recibir y validar los datos de la solicitud.
 
 <h2> Acceso al proyecto </h2>: 
-Una vez instaladas todas las herramientas de desarrollo, se deben configurar los accesos a la base de datos, un consejo al usar un sistema MAC es verificar el nombre del usuario en la base desde la instalacion, generalmente es el nombre del usuario de sesión que está abierto y no postgres.
 Al crear las tablas verifica que se inicialicen todos los valores por default debido a que una de las reglas es que ningún campo puede estar nulo, algo que se puede implementar de no ser así, es que en una interfaz se coloquen las condiciones y aplicarlas en la clase que extiende a CommandLineRunner para que inicialice la aplicación con lo ya establecido.
 
 
