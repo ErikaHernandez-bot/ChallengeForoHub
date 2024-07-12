@@ -29,6 +29,19 @@ Se usó el método save del JpaRepository para realizar la persistencia de los d
 Para la validación de los datos, se utilizó la anotación Java integrada en Spring @Valid.
 La API no debe permitir el registro de tópicos duplicados (con el mismo título y mensaje).
 
+Para el listado de tópicos
+
+La API debe cuenta con un punto final para el listado de todos los tópicos, y debe aceptar solicitudes del tipo GET para la URI /tópicos.
+Los datos de los tópicos (título, mensaje, fecha de creación, estado, autor y curso) son devueltos en el cuerpo de la respuesta, en formato JSON.
+Al tratar con el CRUD se trabaja con JpaRepository asociado al tópico, especialmente en la lista de datos de la base de datos se utiliza el método findAll.
+Se implementó el listado de resultados con paginación utilizando la anotación @PageableDefault
+
+Para detallar los tópicos
+
+La API cuenta con un endpoint (punto final) para el listado de todos los tópicos, y acepta solicitudes del tipo GET para la URI /tópicos/{id}.
+Los datos de los tópicos (título, mensaje, fecha de creación, estado, autor y curso) son  devueltos en el cuerpo de la respuesta, en formato JSON.
+Se usó la anotación @‌PathVariable para recibir el campo de ID de la solicitud GET.
+También se verifica si el campo ID se ingresó correctamente, de lo contrario arroja una respuesta que inidica que el id no existe.
 
 Al robustecer el programa al brindar seguridad y un token, se genero una tabla de registro de usuarios para poder autenticar y autorizar 
 sus peticiones, todas las fases fueron verificadas con Insomnia para facilitar la creación, el envío y la depuración de solicitudes HTTP y API.
