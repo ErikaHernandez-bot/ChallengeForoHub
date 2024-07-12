@@ -1,4 +1,6 @@
-Título: Challenge Conversor de Monedas
+
+#Titulo
+Challenge Conversor de Monedas
 
 Descripción del Proyecto:
 Se crea una API REST con Spring Boot para permitir a los usuarios crear un nuevo tópico, mostrar todos los tópicos creados, 
@@ -15,7 +17,7 @@ Acceso al Proyecto:
 Tecnologías utilizadas:
 ##Índice
 
-*[Título e imagen de portada](#Título-e-imagen-de-portada)
+*[Título](#Título)
 
 *[Insignias](#insignias)
 
