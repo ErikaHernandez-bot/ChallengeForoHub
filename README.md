@@ -1,16 +1,19 @@
 
-#Titulo
+#titulo
 Challenge Conversor de Monedas
 
-Descripción del Proyecto:
-Se crea una API REST con Spring Boot para permitir a los usuarios crear un nuevo tópico, mostrar todos los tópicos creados, 
-mostrar un tópico específico, actualizar un tópico, eliminar un tópico 
+#descripcion-del-proyecto
+Se crea una API con Spring Boot con rutas implementadas siguiendo las mejores prácticas del modelo REST;
+Validaciones realizadas según las reglas de negocio;
+Implementación de una base de datos relacional para la persistencia de la información;
+Servicio de autenticación/autorización para restringir el acceso a la información.
 
+#estado-del-proyecto
+Estado del proyecto: Aún se pueden implementar la lógica de todas las tablas sugeridas en el reto ONE. Este proyecto
+cuenta con los registros necesarios para las reglas de negocio.
 
+#funcionalidad
 
-Estado del proyecto:
-
-Demostración de funciones y aplicaciones:
 
 Acceso al Proyecto:
 
