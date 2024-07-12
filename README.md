@@ -1,6 +1,6 @@
 <h1 align="center"> Challenge Conversor de Monedas </h1>
 
-<em> Descripcion del proyecto </em>:
+<h2> Descripcion del proyecto </h2>:
 Se crea una API con Spring Boot con rutas implementadas siguiendo las mejores prácticas del modelo REST;
 Validaciones realizadas según las reglas de negocio;
 Implementación de una base de datos relacional para la persistencia de la información;
