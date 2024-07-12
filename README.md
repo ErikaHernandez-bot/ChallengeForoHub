@@ -1,4 +1,4 @@
-<h1 align="center"> Challenge Conversor de Monedas </h1>
+<h1 align="center"> Challenge Foro Hub </h1>
 
 <h2> Descripcion del proyecto </h2>
 Se crea una API con Spring Boot con rutas implementadas siguiendo las mejores prácticas del modelo REST;
