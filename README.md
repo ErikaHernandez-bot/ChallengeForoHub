@@ -39,28 +39,7 @@ Una vez instaladas todas las herramientas de desarrollo, se deben configurar los
 Al crear las tablas verifica que se inicialicen todos los valores por default debido a que una de las reglas es que ningún campo puede estar nulo, algo que se puede implementar de no ser así, es que en una interfaz se coloquen las condiciones y aplicarlas en la clase que extiende a CommandLineRunner para que inicialice la aplicación con lo ya establecido.
 
 
-Tecnologías utilizadas:
-##Índice
 
-*[Título](#Título)
+<em> Tecnologías utilizadas </em>: 
 
-*[Insignias](#insignias)
 
-*[Índice](#índice)
-*[Descripción del proyecto](#descripción-del-proyecto)
-
-*[Estado del proyecto](#Estado-del-proyecto)
-
-*[Características de la aplicación y demostración](#Características-de-la-aplicación-y-demostración)
-
-*[Acceso al proyecto](#acceso-proyecto)
-
-*[Tecnologías utilizadas](#tecnologías-utilizadas)
-
-*[Personas Contribuyentes](#personas-contribuyentes)
-
-*[Personas-Desarrolladores del Proyecto](#personas-desarrolladores)
-
-* [Licencia](#licencia)
-
-*[Conclusión](#conclusión)
