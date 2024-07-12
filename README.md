@@ -1,16 +1,16 @@
 <h1 align="center"> Challenge Conversor de Monedas </h1>
 
-<h2> Descripcion del proyecto </h2>:
+<h2> Descripcion del proyecto </h2>
 Se crea una API con Spring Boot con rutas implementadas siguiendo las mejores prácticas del modelo REST;
 Validaciones realizadas según las reglas de negocio;
 Implementación de una base de datos relacional para la persistencia de la información;
 Servicio de autenticación/autorización para restringir el acceso a la información.
 
-<em> Estado del proyecto </em>:
+<h2> Estado del proyecto </h2>
 Aún se pueden implementar la lógica de todas las tablas sugeridas en el reto ONE. Este proyecto
 cuenta con los registros necesarios para las reglas de negocio excepto las opcionales.
 
-<em> Funcionalidad </em>: 
+<h2> Funcionalidad </h2>: 
 Nuestra API se centra específicamente en los tópicos, y debe permitir a los usuarios:
 Crear un nuevo tópico;
 Mostrar todos los tópicos creados;
@@ -42,6 +42,18 @@ La API cuenta con un endpoint (punto final) para el listado de todos los tópico
 Los datos de los tópicos (título, mensaje, fecha de creación, estado, autor y curso) son  devueltos en el cuerpo de la respuesta, en formato JSON.
 Se usó la anotación @‌PathVariable para recibir el campo de ID de la solicitud GET.
 También se verifica si el campo ID se ingresó correctamente, de lo contrario arroja una respuesta que inidica que el id no existe.
+
+Para actualizar los tópicos
+
+La API cuenta con un endpoint (punto final) para la actualización de los datos de un determinado tópico, y acepta solicitudes del tipo PUT para la URI /tópicos/{id}.
+Para verificar si el tópico existe en la base de datos para realizar su actualización se usó el método isPresent() de la clase Java llamada Optional.
+
+Para eliminar un tópico
+
+La API cuenta con un endpoint para la eliminación de un tópico específico, el cual acepta solicitudes del tipo DELETE para la URI /tópicos/{id}.
+Al tratarse de la eliminación de un elemento específico de la base de datos, se usó el método deleteById del JpaRepository.
+
+
 
 Al robustecer el programa al brindar seguridad y un token, se genero una tabla de registro de usuarios para poder autenticar y autorizar 
 sus peticiones, todas las fases fueron verificadas con Insomnia para facilitar la creación, el envío y la depuración de solicitudes HTTP y API.
